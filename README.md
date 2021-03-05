@@ -19,3 +19,11 @@ NOTE: The current local branch will be marked with an asterisk (*).
 ```git branch -r```
 - To see all local and remote branches, run this command:
 ```git branch -a```
+
+### Create a New Branch
+- Run this command (replacing my-branch-name with whatever name you want):
+```
+git checkout -b my-branch-name
+```
+- You're now ready to commit to this branch.
+
