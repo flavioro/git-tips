@@ -7,5 +7,15 @@ Github, tips, tricks etc
 ```
 git reset --hard origin/master
 ```
-
 REFERENCE: https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
+
+
+### List All Branches
+NOTE: The current local branch will be marked with an asterisk (*).
+
+To see local branches, run this command:
+```git branch```
+To see remote branches, run this command:
+```git branch -r```
+To see all local and remote branches, run this command:
+```git branch -a```
