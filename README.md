@@ -27,3 +27,20 @@ git checkout -b my-branch-name
 ```
 - You're now ready to commit to this branch.
 
+### Switch to a Branch In Your Local Repo
+```
+git checkout my-branch-name
+```
+
+### Push to a Branch
+If your local branch does not exist on the remote, run either of these commands:
+```
+git push -u origin my-branch-name
+```
+git push -u origin HEAD
+- NOTE: HEAD is a reference to the top of the current branch, so it's an easy way to push to a branch of the same name on the remote. This saves you from having to type out the exact name of the branch!
+
+- If your local branch already exists on the remote, run this command:
+```
+git push
+```
