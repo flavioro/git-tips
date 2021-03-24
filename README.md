@@ -2,6 +2,7 @@
 Github, tips, tricks etc
 
 ![](http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png)
+<img src="http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png" width="300px" />
 
 ### How do I force “git pull” to overwrite local files?
 ```
