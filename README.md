@@ -1,15 +1,7 @@
 # git-tips
 Github, tips, tricks etc
-<!---
-First comment line...
-//
-_NO_BLANK_LINES_ARE_ALLOWED_
-//
-_and_try_to_avoid_double_minuses_like_this_: --
-//
-last comment line.
--->
-![](http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png)
+<!--- ![](http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png) -->
+
 <img src="http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png" width="300px" />
 
 ### How do I force “git pull” to overwrite local files?
