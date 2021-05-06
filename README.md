@@ -4,6 +4,13 @@ Github, tips, tricks etc
 
 <img src="http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png" width="300px" />
 
+### Get user info from username
+```
+git config user.name
+git config user.email
+git config -l
+```
+
 ### How do I force “git pull” to overwrite local files?
 ```
 git reset --hard origin/master
