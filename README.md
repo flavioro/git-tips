@@ -4,6 +4,12 @@ Github, tips, tricks etc
 
 <img src="http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png" width="300px" />
 
+### How to update a Git branch (branch secundary of master) Merge
+```
+git checkout feature
+git merge master
+```
+
 ### Get user info from username
 ```
 git config user.name
