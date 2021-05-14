@@ -4,6 +4,15 @@ Github, tips, tricks etc
 
 <img src="http://gabsferreira.com/content/images/2021/01/guia-git-e-github-37585.png" width="300px" />
 
+### Use "git checkout -- ..." to discard changes in working directory
+```
+git checkout -- app/views/posts/index.html.erb
+```
+or (all)
+```
+git checkout -- *
+```
+
 Remote Branches
 Remote references are references (pointers) in your remote repositories, including branches, tags, and so on. You can get a full list of remote references explicitly with git ls-remote <remote>, or git remote show <remote> for remote branches as well as more information. Nevertheless, a more common way is to take advantage of remote-tracking branches.
 ```
